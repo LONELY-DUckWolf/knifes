@@ -1,0 +1,215 @@
+.btn-img {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--feauturesmain);
+  color: #fff;
+  
+}
+
+.bu {
+  background-image: url('https://kartinki.pics/uploads/posts/2021-07/1627159451_7-kartinkin-com-p-nozhi-fon-krasivo-8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-left: 75px;
+  width: 300px;
+  height: 35px;
+  border-radius: 20px;
+  background: white;
+  color: #fff;
+}
+
+
+.p {
+  font-size: 14px;
+  margin-left: 170px;
+  color: #fff;
+}
+
+.modal-box {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.modal-list {
+}
+.modal-title {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  margin-bottom: 12px;
+}
+
+.modal-window {
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.63);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 40px;
+  width: 528px;
+  height: 581px;
+}
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal-close-button {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: block;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.modal-close-button:hover,
+.modal-close-button:focus {
+  fill: var(--whathbtbg);
+}
+
+.modal-close-icons {
+}
+
+.modal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.modal-item {
+}
+.modal-name {
+  color: white;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.modal-icons:hover {
+  fill: var(--wathbtbg);
+}
+
+
+.modal-input {
+  width: 448px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  padding-left: 35px;
+  
+}
+
+.modal-input:focus {
+  outline: none;
+  border: 1px solid #2196f3;
+}
+
+.modal-comment:focus {
+  outline: none;
+  border: 1px solid #2196f3;
+}
+
+.modal-icons {
+  position: absolute;
+  top: 29px;
+  left: 12px;
+  fill: var(--feauturesmain);
+}
+
+.modal-comment {
+  width: 448px;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  padding: 12px 16px;
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.12px;
+  resize: none;
+}
+
+.modal-coment::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+
+.modal-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-text {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+.modal-link {
+  color: #2196f3;
+}
+
+
+.modal-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px 52px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  border-color: transparent;
+}
+
