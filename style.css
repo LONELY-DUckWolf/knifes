@@ -1,226 +1,6 @@
-.btn-img {
-  display: flex;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: var(--feauturesmain);
-  color: #fff;
-  
-}
-
-.bu {
-  background-image: url('https://kartinki.pics/uploads/posts/2021-07/1627159451_7-kartinkin-com-p-nozhi-fon-krasivo-8.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.btn {
-  display: flex;
-  justify-content: center;
-  margin-left: 75px;
-  width: 300px;
-  height: 35px;
-  border-radius: 20px;
-  background: white;
-  color: #fff;
-}
-
-
-.p {
-  font-size: 14px;
-  margin-left: 170px;
-  color: #fff;
-}
-
-.modal-box {
-  border-radius: 4px;
-  background: #fff;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-}
-
-.modal-list {
-}
-.modal-title {
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.6px;
-  margin-bottom: 12px;
-}
-
-.modal-window {
-  border-radius: 4px;
-  background: rgba(0, 0, 0, 0.63);
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  padding: 40px;
-  width: 528px;
-  height: 581px;
-}
-
-.backdrop {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.no-scroll {
-  overflow: hidden;
-}
-
-.modal-close-button {
-  background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  display: block;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 8px;
-  right: 8px;
-}
-
-.modal-close-button:hover,
-.modal-close-button:focus {
-  fill: var(--whathbtbg);
-}
-
-.modal-close-icons {
-}
-
-.modal-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-.modal-item {
-}
-.modal-name {
-  color: white;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.12px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.modal-icons:hover {
-  fill: var(--wathbtbg);
-}
-
-
-.modal-input {
-  width: 448px;
-  height: 40px;
-  border-radius: 4px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  padding-left: 35px;
-  
-}
-
-.modal-input:focus {
-  outline: none;
-  border: 1px solid #2196f3;
-}
-
-.modal-comment:focus {
-  outline: none;
-  border: 1px solid #2196f3;
-}
-
-.modal-icons {
-  position: absolute;
-  top: 29px;
-  left: 12px;
-  fill: var(--feauturesmain);
-}
-
-.modal-comment {
-  width: 448px;
-  height: 120px;
-  border-radius: 4px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  padding: 12px 16px;
-  color: var(--text-color);
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: 0.12px;
-  resize: none;
-}
-
-.modal-coment::placeholder {
-  color: rgba(117, 117, 117, 0.5);
-  font-size: 12px;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.12px;
-}
-
-.modal-label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}
-
-.modal-text {
-  color: white;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71;
-  letter-spacing: 0.42px;
-}
-
-.modal-link {
-  color: #2196f3;
-}
-
-
-.modal-button {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.87;
-  letter-spacing: 0.96px;
-  border-radius: 4px;
-  background-color: #ffffff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 10px 52px;
-  margin: 0 auto;
-  display: block;
-  margin-top: 40px;
-  border-color: transparent;
-}
-
-
-
-
-/* hero */
-
 
 .hero-container {
-  background-image: url('https://kartinki.pics/uploads/posts/2021-07/1627159451_7-kartinkin-com-p-nozhi-fon-krasivo-8.jpg');
+  background-image: url('https://img.lovepik.com/bg/20231213/pile-of-gold-bars-with-a-stack-of-gold-and_2452393_wh860.png');
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -238,7 +18,7 @@
   display: flex;
   justify-content: center;
   padding-top: 670px;
-  color: #9d0208;
+  color: #ffffff;
   font-size: 75px;
 }
 
@@ -259,11 +39,11 @@
 .hero-button {
   display: flex;
   text-align: center;
-  margin-left: 750px;
+  margin-left: 650px;
   margin-top: 50px;
   border: 3px solid white;
-  width: 400px;
-  height: 80px;
+  width: 600px;
+  height: 100px;
   border-radius: 50px;
   background-color: #ffffff00;
   color: white;
@@ -271,12 +51,12 @@
 }
 
 .hero-button:hover {
-  border: 3px solid rgb(160, 160, 160);
+  border: 3px solid rgb(94, 255, 0);
   transition: 0.5s;
 }
 
 .b:hover {
-  color: rgb(160, 160, 160);
+  color: rgb(115, 255, 0);
   transition: 0.5s;
 }
 
@@ -285,7 +65,7 @@
 
 .history-container {
   width: 100%;
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(255, 255, 255);
   padding-top: 80px;
   padding-bottom: 25px;
 }
@@ -295,69 +75,26 @@
   border: 5px solid white;
   border-top: #2195f300;
   width: 1140px;
-  height: 660px;
+  height: 350px;
   border-radius: 50px;
-  background-color: #fff;
+  background-color: rgb(236, 236, 236);
   
 }
 
-.history-img1 {
-  width: 550px;
-  height: 410px;
-  border-radius: 40px;
-
-}
-
-.history-img2 {
-  width: 550px;
-  height: 410px;
-  margin-left: 40px;
-  border-radius: 40px;
-
-}
-
-.history-list {
-  display: flex;
-  justify-content: center;
-}
 
 .history-title {
-  margin-left: 450px;
-  font-size: 30px;
-  margin-top: 45px;
-
+  font-size: 50px;
+  text-align: flex-start;
+  margin-top: 55px;
 }
 
 .history-text {
   font-size: 20px;
-  text-align: center;
+  text-align: flex-start;
   margin-top: 15px;
 }
 
-.inf-container {
-  width: 100%;
-  height: auto;
-}
 
-.inf-list {
-  margin-left: 400px;
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  border: 0.000000001px solid white;
-  width: 1140px;
-  height: 210px;
-
-}
-
-.inf-text {
-  font-size: 25px;
-  margin-left: 50px;
-}
-
-.inf-title {
-  font-size: 35px;
-}
 
 /* blog */
 
@@ -385,15 +122,40 @@
 
 .blog-title {
   font-size: 40px;
-  margin-left: 760px;
+  margin-left: 700px;
+}
+
+.blog-btn {
+  margin-top: 50px;
+  border: 3px solid white;
+  background: #ffffff00;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+  transition: 1s;
+
+}
+
+.blog-btn:hover {
+  color: rgb(185, 226, 177);
+  background-color: white;
+  border: 3px solid rgb(185, 226, 177);
+}
+
+.blog-btn-text {
+  font-size: 20px;
 }
 
 .blog-item {
-  border: 1px solid white;
+  border: 1px solid rgb(185, 226, 177);
+  background-color: rgb(185, 226, 177);
   width: 300px;
-  height: auto;
+  height: 500px;
   margin-left: 40px;
   margin-top: 10px;
+  border-radius: 50px;
+  border-top: 0px;
 }
 
 .blog-img {
@@ -435,136 +197,6 @@
 
 }
 
-.catalog-title {
-  font-size: 40px;
-  margin-left: 680px;
-}
-
-.catalog-item {
-  border: 1px solid white;
-  background-color: white;
-  border-radius: 50px;
-  border-top: #ffffff00;
-  border-left: #ffffff00;
-  width: 500px;
-  height: 630px;
-  margin-left: 40px;
-  margin-top: 10px;
-}
-
-.catalog-img {
-  width: 500px;
-  height: 350px;
-  border-radius: 50px;
-}
-
-.catalog-name {
-  font-size: 30px;
-  margin-top: 20px;
-  margin-left: 20px;
-
-}
-
-.catalog-text {
-  font-size: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
-
-}
-
-.catalog-container {
-  width: 100%;
-  height: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #bebebe;
-}
-
-.catalog-list {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  border: 0.000000001px solid rgba(255, 255, 255, 0);
-  width: 100%;
-  height: 210px;
-  border: 1px solid rgba(255, 255, 255, 0);
-  width: 1140px;
-  height: auto;
-  margin-left: 350px;
-
-
-
-}
-
-.catalog-btn {
-  border: 1px solid orange;
-  background-color: orange;
-  border-radius: 50px;
-  width: 150px;
-  height: 50px;
-  margin-top: 20px;
-  margin-left: 30px;
-  text-align: center;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-
-
-}
-
-.catalog-btn:hover {
-  background-color: #fff;
-  color: orange;
-  
-}
-
-
-.galery-container {
-  width: 100%;
-  height: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #bebebe;
-}
-
-
-.galery-img {
-  width: 350px;
-  height: 250px;
-  border-radius: 50px;
-  margin: 10px;
-}
-
-.galery-list {
-  display: flex;
-}
-
-.galery-boxs {
-  display: flex;
-
-}
-
-.galery-box {
-  margin-left: 300px;
-  border: 1px solid #ffffff00;
-  width: 500px;
-  height: auto;
-
-}
-
-.galery-box1 {
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.galery-text {
-  font-size: 30px;
-}
-
-.galery-title {
-  font-size: 60px;
-}
 
 
 .choose-container {
@@ -573,14 +205,16 @@
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #bebebe;
+
+  
 }
 
 .choose-box {
-  background-color: #9d0208;
-  margin-left: 450px;
-  border: 1px solid #ffffff00;
-  width: 1000px;
-  height: 350px;
+  background-color: orangered;
+  margin-left: 600px;
+  border: 1px solid orangered;
+  width: 700px;
+  height: 450px;
   border-radius: 50px;
 }
 
@@ -592,13 +226,13 @@
 }
 
 .choose-btn {
-  border: 1px solid rgb(189, 123, 0);
-  background-color: rgb(189, 123, 0);
+  border: 1px solid rgb(199, 199, 199);
+  background-color: rgb(199, 199, 199);
   border-radius: 50px;
   width: 150px;
   height: 50px;
   margin-top: 50px;
-  margin-left: 420px;
+  margin-left: 290px;
   text-align: center;
   color: #fff;
   font-size: 20px;
@@ -607,8 +241,8 @@
 }
 
 .choose-btn:hover {
-  background-color: orange;
-  color: white;
+  background-color: white;
+  color: rgb(199, 199, 199);
   transition: 1s;  
 }
 
